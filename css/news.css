@@ -1,0 +1,131 @@
+/*.text-columns-3 {
+      column-count: 1;
+    }
+
+    @media (min-width: 992px) {
+      .text-columns-3 {
+        column-count: 3;
+      }
+    }*/
+
+.text-columns-3 img {
+  padding: 0 !important;
+  float: none !important;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.news-detail.item-odd {
+  background: #ffffff;
+}
+
+.news-detail.item-even {
+  background: #efefef;
+}
+
+section.content-page .news-detail h1 {
+  line-height: 1rem;
+}
+
+section.section-paragraphs h2,
+section.content-page .news-detail h2 {
+  font-size: 1.3rem;
+}
+
+section.section-paragraphs h2,
+section.content-page .news-detail h3 p {
+  font-size: 1.3rem;
+}
+
+.toggleContent {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .toggleContent {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.toggleContent > * {
+  padding: 15px;
+}
+
+.toggleContent h1,
+.toggleContent h2,
+.toggleContent h3 {
+  margin: 0 !important;
+}
+
+.toggleContent time {
+  font-size: 1.3rem;
+  line-height: 02rem;
+  color: #000;
+}
+
+.thumbCounter {
+  background-color: #b6252b !important;
+}
+
+.news-text {
+  border-top: 1px solid #bb1a1a;
+  margin: 30px 0;
+  padding: 30px 15px;
+}
+
+.dm-pushapp-widget center {
+  display: none;
+}
+
+#feedDIV .col-1,
+#feedDIV .col-3 {
+  display: block;
+  width: 100%;
+}
+
+#feedDIV .news-text div,
+#feedDIV .news-text p {
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  color: var(--dark-gray);
+  word-break: break-word;
+}
+
+.thumbCounter {
+  position: relative;
+}
+
+h4 {
+  color: var(--dark-gray) !important;
+}
+
+#newsBTN {
+  margin-top: 1rem;
+  background-color: var(--lightest-gray);
+  font-size: 1.2rem;
+  padding: 0.5rem 1.5rem;
+  color: var(--ja-red);
+  border: 3px solid var(--ja-red);
+  margin: 20px auto;
+}
+
+.imgGallerie {
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 15px;
+}
+@media (min-width: 769px) {
+  .imgGallerie {
+    grid-template-columns: auto auto;
+    column-gap: 15px;
+  }
+}
+@media (min-width: 1000px) {
+  .imgGallerie {
+    grid-template-columns: auto auto auto;
+  }
+}
