@@ -1731,7 +1731,26 @@ h3.short-profile-name {
 
 .short-profile-description .summary {
 	/* text-align: center; */
-	height: 10rem;
+	height: auto;
+	min-height: 8rem;
+}
+
+@media (min-width: 576px) {
+	.short-profile-description .summary {
+		min-height: 5rem;
+	}
+}
+
+@media (min-width: 992px) {
+	.short-profile-description .summary {
+		min-height: 15rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.short-profile-description .summary {
+		min-height: 12rem;
+	}
 }
 
 .short-profile-description .summary p {
