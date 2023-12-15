@@ -2142,8 +2142,8 @@ section.section-bg-image h2 {
 }
 
 section.section-bg-image a {
-	color: var(--light-gray);
-	font-weight: 700;
+	color: var(--light-redbrown);
+	font-weight: 500;
 }
 
 
