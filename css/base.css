@@ -1339,7 +1339,7 @@ ul.footer-contact-list a .footer-icon {
 }
 
 .full-width-bg-img {
-	background-image: url(../img/profil.jpg);
+	/* background-image: url(../img/profil.jpg); */
 	background-size: cover;
 	background-position: top;
 	position: absolute;
@@ -1408,13 +1408,13 @@ ul.footer-contact-list a .footer-icon {
 .full-width-banner-container .full-width-banner-content h3 {
 	font-family: lores-12, sans-serif;
 	font-weight: 400;
-	color: var(--light-gray);
+	color: var(--dark-gray);
 }
 
 .full-width-banner-container .full-width-banner-content .banner-text {
 	font-size: 1.2rem;
 	line-height: 2rem;
-	color: var(--light-gray);
+	color: var(--dark-gray);
 	text-align: left;
 }
 
